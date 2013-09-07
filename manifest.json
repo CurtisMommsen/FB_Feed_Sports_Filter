@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "FB_Feed_Sports_Filter",
+	"description": "This extension will filter sports related posts from a users facebook feed.",
+	"version": "1.0",
+
+	"permissions": ["https://www.facebook.com/"],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
